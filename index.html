@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajwal Protfolio</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: rgb(0, 0, 33);
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(6, 6, 77);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .left {
+        font-size: 1.6rem;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .firstsection {
+        width: 23%;
+        height: 60vh;
+    }
+
+    .secondsection {
+        width: 30%;
+        height: 60vh;
+    }
+
+    .secondsection img {
+        height: 300px;
+        width: 300px;
+        margin-top: 95px;
+    }
+
+    .firstsection .para {
+
+        font-size: 2rem;
+        margin: 180px 0;
+    }
+
+    .firstsection .name,
+    #element {
+        color: rgb(25, 25, 215);
+    }
+
+    nav li a {
+        transition: .5s ease-in-out;
+        text-decoration: underline;
+    }
+
+    nav li a:hover {
+        color: brown;
+    }
+
+    main hr {
+        border: 0;
+        height: 1.2px;
+        background-color: rgb(181, 35, 35);
+        margin: 50px 50px;
+    }
+
+    .Expsection {
+        height: 70vh;
+    }
+
+    .Expsection h1 {
+        max-width: 80vw;
+        margin: auto;
+        font-size: 1.5rem;
+
+    }
+
+    .Expsection .gray {
+        color: gray;
+        margin: 0px 150px;
+    }
+
+    .Expsection .box {
+        background: white;
+        width: 76vw;
+        height: 2px;
+        margin: 56px auto;
+        display: flex;
+    }
+
+    .Expsection .vertical {
+        height: 93px;
+        width: 0.8px;
+        background-color: white;
+        margin: 0 145px;
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 72px;
+        left: -4px;
+        width: 135px;
+
+    }
+
+    .text-desc {
+        position: relative;
+        top: 79px;
+        width: 150px;
+        font-size: 12px;
+        color: gray;
+    }
+
+    .footer {
+        background-color: rgb(7, 7, 76);
+        margin: -66px -100px;
+
+    }
+
+    .footer .flex {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-first h3 {
+        padding: 40px 0px;
+    }
+
+    .footer ul li {
+        list-style: none;
+        margin: 8px 4px;
+        padding: 2px 2px;
+    }
+
+    .top-image {
+        width: 23px;
+        width: 23px;
+        position: relative;
+        top: -26px;
+        left: -10px;
+    }
+
+    .footer .text-center {
+        text-align: center;
+        color: gray;
+        padding: 20px 2px;
+    }
+
+    .firstsection .btn {
+        margin-top: 15px;
+        background-color: rgb(9, 9, 104);
+        color: white;
+        border: 2px solid white;
+        font-size: 17px;
+        border-radius: 10px;
+        padding: 5px 0px
+        }
+        .firstsection button{
+            margin: 0 7px;
+            transition:0.5s ease-in-out;
+           
+        }
+        .firstsection button:hover{
+            cursor: pointer;
+            background-color: rgb(174, 174, 221);
+            color: black;
+        }
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prajwal's Protfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">More info</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="firstsection">
+                <div class="para"> Hi, my name is <span class="name">Prajwal</span>,
+                    im a Student, and im passionate in<br>
+                    <span id="element"></span>
+                    <div class="button">
+                        <button class="btn">Download Resume</button>
+                        <button class="btn">Visit Github</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="secondsection">
+                <img src="images/PngItem_1127587.png" alt="photo">
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="Expsection">
+            <span class="gray">What i have done so far</span>
+            <h1>Past Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="top-image" src="images/coding.png" alt="lolo">
+                    <div class="vertical-title">
+                        Web Development (01/02/2023)
+                    </div>
+                    <div class="text-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint perferendis deleniti harum
+                        illo hic consequuntur ipsum ipsa facilis veritatis.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top-image" src="images/flight.png" alt="">
+                    <div class="vertical-title">
+                       Traveller
+                    </div>
+                    <div class="text-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint perferendis deleniti harum
+                        illo hic consequuntur ipsum ipsa facilis veritatis.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top-image" src="images/youtube.png" alt="">
+                    <div class="vertical-title">
+                        www.youtube.com
+                    </div>
+                    <div class="text-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint perferendis deleniti harum
+                        illo hic consequuntur ipsum ipsa facilis veritatis.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top-image" src="images/instagram.png" alt="">
+                    <div class="vertical-title">
+                       pr__aj_zzz
+                    </div>
+                    <div class="text-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint perferendis deleniti harum
+                        illo hic consequuntur ipsum ipsa facilis veritatis.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="flex">
+            <div class="footer-first ">
+                <h3>Prajwal's Protfolio</h3>
+            </div>
+            <div class="footer-secondt ">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third ">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth ">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            Copyright &#169; www.prajwalprotfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer.</i>', "Coding.", 'Travelling.', "Learning new Skills."],
+            typeSpeed: 60,
+        });
+    </script>
+
+</body>
+
+</html>
